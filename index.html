@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="nav">
+      <a href="#home">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-container">
+        <div class="home-left">
+          <div class="photo-container">
+            <img src="img/me.png" alt="my-photo" class="photo" />
+          </div>
+          <div class="name-katakana">ヤン　ユンホア</div>
+          <div class="name-kanji">楊　応華</div>
+          <div class="intro">
+            中国出身、34歳。8年前に日本に参り、ずっと北海道に暮らしています。
+            獣医学を長年で勉強したが、生殖の不思議に惹かれて不妊治療の分野で胚培養士として働いています。
+            仕事中に半分以上の仕事量は実際に書類を記録が占めていることに悩んで、効率化できないかと思ってプログラミングを独学し始まりました。
+            将来、もしチャンスがあれば本番のプログラマーとして様々な分野の仕事を楽にすると頑張りたいと考えています。
+          </div>
+        </div>
+        <div class="home-right">
+          <table>
+            <tr>
+              <th>学歴</th>
+              <td>獣医学博士(北海道大学)</td>
+            </tr>
+            <tr>
+              <th rowspan="3">職歴</th>
+              <td>胚培養士　手稲渓仁会病院　2019.4 - 今</td>
+            </tr>
+            <tr>
+              <td>胚培養士　AGエンブリオサポート　2018.5 - 2019.3</td>
+            </tr>
+            <tr>
+              <td>胚培養士　セントベビークリニック　2017.11 - 2018.5</td>
+            </tr>
+            <tr>
+              <th rowspan="3">資格</th>
+              <td>生殖補助医療胚培養士　2021.6</td>
+            </tr>
+            <tr>
+              <td>簿記3級　2019.6</td>
+            </tr>
+            <tr>
+              <td>スキーインストラクター　2017.3</td>
+            </tr>
+            <tr>
+              <th>言語</th>
+              <td>中国語、日本語、英語</td>
+            </tr>
+            <tr>
+              <th>趣味</th>
+              <td>旅行、スキー、ランニング</td>
+            </tr>
+          </table>
+          <div class="social-icons">
+            <a href="https://github.com/youngyinghua" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/yinghua-yang-9160a4174/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="mailto:youngyinghua@gmail.com"
+              ><i class="fas fa-envelope-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Original Projects（自分ゼロから作成）</h2>
+      <div class="project-containers">
+        <div class="project-container">
+          <a href="https://embcryo.herokuapp.com/" target="_blank">
+            <img src="img/embryo.png" alt="胚管理App" />
+          </a>
+          <p class="project-name">不妊治療の胚の在庫管理App</p>
+          <p class="project-intro">
+            特徴：serverはHeroku使用/画像保存はimgbbのAPI使用/DBのimportとexport可能
+          </p>
+          <p class="project-intro">
+            構成：HTML/CSS/React/Node.js/PostgreSQL
+            <a href="https://github.com/youngyinghua/SaveEmbryo" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <span>(デモ用username:admin, PW:admin)</span>
+          </p>
+        </div>
+        <div class="project-container">
+          <a
+            href="https://youngyinghua.github.io/smART-medium-calculator/"
+            target="_blank"
+          >
+            <img src="img/medium_calculator.png" alt="培養液量予測App" />
+          </a>
+          <p class="project-name">不妊治療の胚の培養液使用量予測App</p>
+          <p class="project-intro">
+            特徴：Vanilla
+            JavaScript/カレンダーに日程のドラグ移動可能/パラメータ設定可能
+          </p>
+          <p class="project-intro">
+            構成：HTML/CSS/JavaScript
+            <a
+              href="https://github.com/youngyinghua/smART-medium-calculator"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <h2>Sample Projects（チュートリアルに従って作成）</h2>
+      <div class="project-containers">
+        <div class="project-container">
+          <a
+            href="https://clothing-crown-online.herokuapp.com/shop/"
+            target="_blank"
+          >
+            <img src="img/EC_site.png" alt="ECモール" />
+          </a>
+          <p class="project-name">簡単版ECサイト</p>
+          <p class="project-intro">
+            特徴：クレジットカード使用可能/Googleでログイン可能
+          </p>
+          <p class="project-intro">
+            構成：HTML/CSS/React/Node.js/Firebase
+            <a
+              href="https://github.com/youngyinghua/crwn-clothing"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </p>
+        </div>
+        <div class="project-container">
+          <a href="https://face-detect-by-yang.herokuapp.com/" target="_blank">
+            <img src="img/face_detector.png" alt="顔を検出App" />
+          </a>
+          <p class="project-name">顔検出App</p>
+          <p class="project-intro">
+            特徴：登録可能。<span>(デモ用Email:test@gmail.com, PW:test)</span>
+          </p>
+          <p class="project-intro">
+            構成：HTML/CSS/React/Node.js/PostgreSQL/ClarifaiのAPI
+            <a
+              href="https://github.com/youngyinghua/face-detector"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </p>
+        </div>
+        <div class="project-container">
+          <a href="https://youngyinghua.github.io/paint-clone/" target="_blank">
+            <img src="img/paint_clone.png" alt="ペイント　クローン" />
+          </a>
+          <p class="project-name">ペイント　クローン</p>
+          <p class="project-intro">特徴：絵をdownload可能/ブラウザに保存可能</p>
+          <p class="project-intro">
+            構成：HTML/CSS/JavaScript
+            <a
+              href="https://github.com/youngyinghua/paint-clone"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </p>
+        </div>
+        <div class="project-container">
+          <a
+            href="https://youngyinghua.github.io/video-player/"
+            target="_blank"
+          >
+            <img src="img/video-player.png" alt="動画プレイヤー" />
+          </a>
+          <p class="project-name">ビデオプレーヤー</p>
+          <p class="project-intro">特徴：ビデオプレーヤーの基本功能</p>
+          <p class="project-intro">
+            構成：HTML/CSS/JavaScript
+            <a
+              href="https://github.com/youngyinghua/video-player"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </p>
+        </div>
+        <div class="project-container">
+          <a href="https://youngyinghua.github.io/math-game/" target="_blank">
+            <img src="img/math_game.png" alt="算数ゲーム" />
+          </a>
+          <p class="project-name">算数ゲーム</p>
+          <p class="project-intro">特徴：ゲーム結果localStorageに保存</p>
+          <p class="project-intro">
+            構成：HTML/CSS/JavaScript
+            <a href="https://github.com/youngyinghua/math-game" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>参加したUdemyのオンライン講座一覧</h2>
+      <div class="course-container">
+        <ul>
+          <li>
+            The Complete <strong>Python</strong> Developer in 2020: Zero to
+            Mastery (30.5時間)
+          </li>
+          <li>
+            The Complete <strong>Web Developer</strong> in 2020: Zero to Mastery
+            (35時間)
+          </li>
+          <li><strong>JavaScript</strong>: the Advanced Concepts (25時間)</li>
+          <li>
+            The Complete Junior to Senior <strong>Web Developer</strong> Roadmap
+            (2020): (35.5時間)
+          </li>
+          <li>
+            Complete <strong>React</strong> Developer in 2020 (Redux, Hooks,
+            GraphQL): (41.5時間)
+          </li>
+          <li>
+            Complete <strong>SQL</strong> and Database Bootcamp in 2020: Zero to
+            Mastery (35.5時間)
+          </li>
+          <li>
+            <strong>Linux</strong> Mastery: Master the Linux Command Line in
+            11.5 Hours (11.5時間)
+          </li>
+          <li>
+            JavaScript Web <strong>Projects</strong>: 20 Projects to Build Your
+            Portfolio (33時間)
+          </li>
+          <li>
+            Complete <strong>React Native</strong> in 2021: Zero to Mastery
+            (勉強中)
+          </li>
+          <li>超<strong>TypeScript</strong>入門　完全パック（2021）(勉強中)</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact"></section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
