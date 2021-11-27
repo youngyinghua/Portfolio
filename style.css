@@ -70,7 +70,7 @@ section {
 
 .intro {
   font-size: 1.25rem;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .home-right {
@@ -107,7 +107,7 @@ td {
   color: purple;
 }
 
-.social-icons > a > i:hover {
+.social-icons i:hover {
   transform: scale(1.2);
 }
 
@@ -176,7 +176,7 @@ p {
   margin-top: 5px;
 }
 
-p > a > .fa-github {
+p .fa-github {
   font-size: 1.3rem;
   color: black;
 }
