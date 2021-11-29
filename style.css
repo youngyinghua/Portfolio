@@ -71,6 +71,7 @@ section {
 .intro {
   font-size: 1.25rem;
   max-width: 600px;
+  text-align: justify;
 }
 
 .home-right {
